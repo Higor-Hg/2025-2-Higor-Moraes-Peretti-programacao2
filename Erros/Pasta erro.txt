@@ -1,1 +1,1 @@
-a pasta erros do meu repositorio destinada a imagens de erros que eventualmente aparecerem durante o uso das ferramentas de software que usaremos na disciplina.
+a pasta erros do meu repositorio  destinada a imagens de erros que eventualmente aparecerem durante o uso das ferramentas de software que usaremos na disciplina.
