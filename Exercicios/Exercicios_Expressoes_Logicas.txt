@@ -1,0 +1,43 @@
+Determine os resultados obitidos na avaliação das expressões lógicas seguintes,
+sabendo que A,B e C contêm, respectivamente: 2, 7, 3.5, e que existe uma
+variavel lógica L cujo o valor é falso(F):
+
+a)B == A * C and (L or V)
+  7 == 2*3.5     (F or V)
+  7 == 7         (V)
+  V and V
+  V
+
+b)B > A or B == pot(A,A)
+  7 > 2 or 7 == 2² 
+  7 > 2 or 7 == 4  
+  V or F
+  V
+ 
+c)L and B div A >= C or not A <= C 
+  F and 7/2 >= 3.5 or not 2<=3.5
+  F and 3.5 >= 3.5 or not 2<=3.5
+  F and V or not V
+  F and V or F
+  F or F
+  F
+
+d) not L or V and rad(A + B) >= C
+   not L or V and rad(9) >= 3.5 
+   not L or V and 3 >= 3.5 
+   V or V and F
+   V or F
+   V
+
+e)B/A == C or B/A <> C
+  7/2 == 3.5 or 7/2 <> 3.5
+  3.5 == 3.5 or 3.5 <> 3.5
+  V or F
+  V
+
+f)L or pot(B,A) <= C * 10 + A * B
+  F or pot(7,2) <= 3.5 * 10 + 2 * 7
+  F or 49 <= 35 + 14
+  F or 49 <= 49
+  F or V 
+  V
