@@ -134,7 +134,35 @@ elif imc >= 25 and imc <= 29.9 :
 else:
     print("Você está obeso")
 
+#Questões01
 
+try:
+    numero1 = int(input("Digite o primeiro número inteiro: "))
+    numero2 = int(input("Digite o segundo número inteiro: "))
+
+    if numero1 > numero2:
+       print(f"{numero1}  é maior do que {numero2}") 
+       
+    elif numero2 > numero1:
+         print(f"{numero2}  é maior do que {numero1}")   
+         
+    else:
+        print("Os valores informdos são iguais.")
+        
+    if (numero1 % 2 == 0) and (numero2 % 2 == 0):
+        print(f"{numero1} e o número {numero2} são números pares.")
+        
+    else:
+        print("Um ou ambos os números são pares.")
+        
+    if (numero1 % 5 == 0) or (numero2 % 5 == 0):
+        print("Pelo menos um dos números é multiplo de 5")
+        
+    else:
+        print("Os números informados não são multiplos de 5-")                       
+
+except ValueError:
+    print(f"Número inválido. O valor informado não é um inteiro válido. Erro do compilador {e}")
 
 
 
