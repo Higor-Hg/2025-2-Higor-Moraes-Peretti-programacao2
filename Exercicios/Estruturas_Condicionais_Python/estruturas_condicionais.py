@@ -114,6 +114,7 @@ Validar se a entrada de dados é válida: peso e altura positivos e do tipo floa
 Usar a função round(imc, 2) para arredondar o valor do IMC para duas casas
 decimais.'''
 
+#Resposta
 
 peso = float(input("Digite seu peso em KG: "))
 altura = float(input("Digite sua altura em metros: "))
@@ -133,6 +134,145 @@ elif imc >= 25 and imc <= 29.9 :
     
 else:
     print("Você está obeso")
+    
+'''7. Solicite ao usuário que digite um número. Converta-o para float usando conversão
+explícita de tipo do Python. Exiba na tela tanto o número informado pelo usuário
+quanto o seu tipo de dado. Verificar se o número informado é inteiro ou decimal,
+usando o operador módulo.'''
+   
+#Resposta   
+   
+numero = float(input("Digite um número: "))
+
+print("Número informado:", numero)
+print("Tipo de dado:", type(numero))
+
+if numero % 1 == 0:
+    print("O número é inteiro.")
+else:
+    print("O número é decimal.")
+
+''' 8. Crie um programa que leia dois números. Exiba na tela uma mensagem que mostre
+os números informados e se são menores, iguais ou maiores do que 150. Verifique
+se a soma dos dois números é maior que 300 e exiba mensagem na tela
+informando o ocorrido.'''  
+   
+#Resposta   
+    
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+print(f"Números informados: {num1} e {num2}")
+
+
+for i, n in enumerate([num1, num2], start=1):
+    if n < 150:
+        print(f"O número {i} ({n}) é menor que 150.")
+    elif n == 150:
+        print(f"O número {i} ({n}) é igual a 150.")
+    else:
+        print(f"O número {i} ({n}) é maior que 150.")
+
+
+soma = num1 + num2
+if soma > 300:
+    print("A soma dos dois números é maior que 300.")
+else:
+    print("A soma dos dois números NÃO é maior que 300.")
+    
+'''9. Crie um programa que exiba na tela os dias da semana. Defina os dias da semana
+como constantes do tipo String. Solicite ao usuário que digite um número entre 1 e 7,
+onde 1 = segunda-feira e 7 = domingo. De acordo com o número digitado exiba o dia
+da semana. Caso um valor inválido seja informado, exiba uma mensagem de erro
+para o usuário.'''
+ 
+#Resposta
+ 
+dias_da_semana = [
+    "segunda-feira", "terça-feira", "quarta-feira", 
+    "quinta-feira", "sexta-feira", "sábado", "domingo"
+]
+
+numero = int(input("Digite um número de 1 a 7: "))
+
+if 1 <= numero <= 7:
+    print("Dia da semana:", dias_da_semana[numero - 1])
+else:
+    print("Erro: número inválido. Digite um número entre 1 e 7.")
+
+'''10. Crie um programa que exiba na tela os meses do ano por extenso. Defina os meses
+como constantes do tipo String. Solicite ao usuário que digite um número entre 1 e
+12, onde 1 = janeiro e 12 = dezembro. De acordo com o número digitado, exiba o
+mês do ano. Juntamente com o nome do mês do ano, informe a quantidade de dias
+do mês (desconsiderar ano bissexto). Caso um valor inválido seja informado, exiba
+uma mensagem de erro para o usuário.'''
+
+#Resposta
+
+meses = [
+    ("Janeiro", 31), ("Fevereiro", 28), ("Março", 31),
+    ("Abril", 30), ("Maio", 31), ("Junho", 30),
+    ("Julho", 31), ("Agosto", 31), ("Setembro", 30),
+    ("Outubro", 31), ("Novembro", 30), ("Dezembro", 31)
+]
+
+numero = int(input("Digite um número de 1 a 12: "))
+
+if 1 <= numero <= 12:
+    nome, dias = meses[numero - 1]
+    print(f"Mês: {nome}, Dias: {dias}")
+else:
+    print("Erro: número inválido. Digite um número entre 1 e 12.")
+    
+'''11. Peça que o usuário informe três valores inteiros positivos que representam os lados
+de um triângulo. Verifique se os valores informados podem formar um triângulo. Se
+sim, informe se é um triângulo: equilátero, isósceles ou escaleno. Se não, exiba
+uma mensagem dizendo que as medidas dos lados informados não representam um
+triângulo. Lembrando que:
+➢ Na geometria euclidiana, um triângulo é formado por três segmentos de reta
+que podem ser conectados extremidade a extremidade.
+➢ Para que isso seja possível, nenhum lado pode ser maior ou igual à soma
+dos outros dois. Se fosse igual, teríamos uma linha reta (triângulo
+degenerado). Se fosse maior, não haveria como fechar a figura.'''    
+    
+#Resposta
+
+a = int(input("Digite o lado A: "))
+b = int(input("Digite o lado B: "))
+c = int(input("Digite o lado C: "))
+
+if a + b > c and a + c > b and b + c > a:
+    if a == b == c:
+        print("Triângulo equilátero.")
+    elif a == b or a == c or b == c:
+        print("Triângulo isósceles.")
+    else:
+        print("Triângulo escaleno.")
+else:
+    print("Os valores informados NÃO formam um triângulo.")
+
+'''12. Solicite ao usuário que informe três números inteiros e exiba na tela o maior deles.
+Não utilize funções built-in do Python. Se não forem informados valores numéricos,
+exiba mensagem de erro ao usuário.'''
+
+#Resposta
+
+try:
+    n1 = int(input("Digite o primeiro número: "))
+    n2 = int(input("Digite o segundo número: "))
+    n3 = int(input("Digite o terceiro número: "))
+
+    maior = n1
+    if n2 > maior:
+        maior = n2
+    if n3 > maior:
+        maior = n3
+
+    print("O maior número é:", maior)
+
+except ValueError:
+    print("Erro: Por favor, digite apenas números inteiros.")
+
 
 #Questões01
 
@@ -163,18 +303,3 @@ try:
 
 except ValueError:
     print(f"Número inválido. O valor informado não é um inteiro válido. Erro do compilador {e}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
