@@ -81,7 +81,7 @@ else:
     
 if Numero1 != 0:
     if Numero1 > 0:
-        print(f"O número {Numero1} é positivo")===
+        print(f"O número {Numero1} é positivo")
     else:
         print(f"O número {Numero1} é negativo")
 
