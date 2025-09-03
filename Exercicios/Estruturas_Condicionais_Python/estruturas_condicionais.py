@@ -64,6 +64,26 @@ Python que resolverá o problema. faça duas implementações:
 ➢ Uma com a função “find”;
 ➢ Uma com o operador que você descobrirá na pesquisa.'''
 
+#Resposta
+
+Frase =  "python é uma excelente linguagem de programação!!!"
+
+palavra = input("digite uma palavra")
+
+#usando o op in
+if palavra. lower() in Frase. lower():
+    print(f"A palavra {palavra} esta na frase oculta...")
+
+else:
+    print(f" a palavra {palavra} nao esta na frase oculta...")
+
+#usando find
+if Frase.find(palavra) >= 0:
+    print(f"A palavra {palavra} esta na frase oculta...")
+    
+else:
+    print(f"A palavra {palavra} NÂO esta na frase oculta")
+
 '''4. Crie um programa que leia um número e verifique se ele é par, ímpar ou zero (0).
 Caso seja diferente de zero, verifique se o tal número é positivo, negativo.'''
  
