@@ -364,9 +364,6 @@ except ValueError:
     print("Erro: Por favor, digite apenas números inteiros.")
 
 
-except ValueError:
-    print("Erro: Por favor, digite apenas números inteiros.")
-
 #feita pela professor uso para melhor entendimento
 #Questões01
 
