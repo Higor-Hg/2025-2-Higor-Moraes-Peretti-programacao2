@@ -351,13 +351,18 @@ try:
     n2 = int(input("Digite o segundo número: "))
     n3 = int(input("Digite o terceiro número: "))
 
-    maior = n1
-    if n2 > maior:
+    if n1 >= n2 and n1 >= n3:
+        maior = n1
+    elif n2 >= n1 and n2 >= n3:
         maior = n2
-    if n3 > maior:
+    else:
         maior = n3
 
     print("O maior número é:", maior)
+
+except ValueError:
+    print("Erro: Por favor, digite apenas números inteiros.")
+
 
 except ValueError:
     print("Erro: Por favor, digite apenas números inteiros.")
