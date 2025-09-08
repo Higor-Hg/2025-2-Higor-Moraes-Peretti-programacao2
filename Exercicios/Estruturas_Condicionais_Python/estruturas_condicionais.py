@@ -10,21 +10,33 @@
 
 #Resposta:
 
-num1 = int(input("Digite o primeiro valor inteiro: "))
-num2 = int(input("Digite o segundo valor inteiro: "))
+try:
+    numero1 = int(input("Digite o primeiro número inteiro: "))
+    numero2 = int(input("Digite o segundo número inteiro: "))
 
+    if numero1 > numero2:
+       print(f"{numero1}  é maior do que {numero2}") 
+       
+    elif numero2 > numero1:
+         print(f"{numero2}  é maior do que {numero1}")   
+         
+    else:
+        print("Os valores informdos são iguais.")
+        
+    if (numero1 % 2 == 0) and (numero2 % 2 == 0):
+        print(f"{numero1} e o número {numero2} são números pares.")
+        
+    else:
+        print("Um ou ambos os números são pares.")
+        
+    if (numero1 % 5 == 0) or (numero2 % 5 == 0):
+        print("Pelo menos um dos números é multiplo de 5")
+        
+    else:
+        print("Os números informados não são multiplos de 5")                       
 
-if num1 > num2:
-    print(f"O primeiro valor informado ({num1}) é maior que o segundo ({num2}).")
-else:
-    print(f"O segundo valor informado ({num2}) é maior que o primeiro ({num1}).")
-
-
-if num1 % 2 == 0 and num2 % 2 == 0:
-    print("Ambos os números são pares.")
-
-if num1 % 5 == 0 or num2 % 5 == 0:
-    print("Pelo menos um dos números é múltiplo de 5.")
+except ValueError:
+    print(f"Número inválido. O valor informado não é um inteiro válido. Erro do compilador {e}")
 
 '''2.Crie um programa que possa marcar uma consulta médica. Como opções, teremos
 #disponíveis apenas 03 médicos, que devem ter seus nomes exibidos na tela, p/ que
@@ -36,9 +48,9 @@ if num1 % 5 == 0 or num2 % 5 == 0:
 #Resposta
    
 print ("Olá,escolha um dos médicos que você queira consultar.")
-print ("1.Dr Andressa")
+print ("1.Dr Eliane")
 print ("2.Dr Osman")
-print ("3.Dr Luis")
+print ("3.Dr Henrique")
 
 medico  = int(input("Digite o número do médico escolhido (1, 2 ou 3): "))
    
@@ -47,7 +59,7 @@ if medico == 1:
 elif medico == 2:
         print(f"Consulta marcada com Dr Osman.")        
 elif medico == 3:
-        print(f"Consulta marcada com Dr Luis.")        
+        print(f"Consulta marcada com Dr Henrique.")        
 else:
         print("Erro: Escolha inválida. Por favor, escolha um número entre 1 e 3.")
 
@@ -70,14 +82,14 @@ Frase =  "python é uma excelente linguagem de programação!!!"
 
 palavra = input("digite uma palavra")
 
-#usando o op in
+
 if palavra. lower() in Frase. lower():
     print(f"A palavra {palavra} esta na frase oculta...")
 
 else:
     print(f" a palavra {palavra} nao esta na frase oculta...")
 
-#usando find
+
 if Frase.find(palavra) >= 0:
     print(f"A palavra {palavra} esta na frase oculta...")
     
@@ -112,14 +124,16 @@ informando o ocorrido.'''
 
 #Resposta
 
-Numero1 = float(input("Digite um número: "))
-Numero2 = float(input("Digite outro número: "))
+numero1 = float(input("Digite um número: "))
+numero2 = float(input("Digite outro número: "))
 
-if Numero1 and Numero2 > 0:
+if numero1 > 0 and numero2 > 0:
     print("Os dois números são positivos")
+elif numero1 < 0 or numero2 < 0:
+    print("Pelo menos um dos dois números é negativo")
+else:
+    print("Um dos números é zero")
 
-elif Numero1 or Numero2 < 0:
-    print("Pelo menos um dos dois números são negativos")
 
 
 
@@ -139,7 +153,7 @@ decimais.'''
 peso = float(input("Digite seu peso em KG: "))
 altura = float(input("Digite sua altura em metros: "))
 
-imc = peso (altura * altura)
+imc = peso / (altura ** 2)
 
 round(imc, 2)
 
@@ -179,26 +193,35 @@ informando o ocorrido.'''
    
 #Resposta   
     
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
+NUM1 = float(input("Digite o primeiro número: "))
+NUM2 = float(input("Digite o segundo número: "))
 
-print(f"Números informados: {num1} e {num2}")
+NUMEROS = (NUM1, NUM2)  # constante como tupla
 
+print(f"Números informados: {NUM1} e {NUM2}")
 
-for i, n in enumerate([num1, num2], start=1):
-    if n < 150:
-        print(f"O número {i} ({n}) é menor que 150.")
-    elif n == 150:
-        print(f"O número {i} ({n}) é igual a 150.")
-    else:
-        print(f"O número {i} ({n}) é maior que 150.")
+# verificando cada número com if
+if NUM1 < 150:
+    print(f"O primeiro número ({NUM1}) é menor que 150.")
+elif NUM1 == 150:
+    print(f"O primeiro número ({NUM1}) é igual a 150.")
+else:
+    print(f"O primeiro número ({NUM1}) é maior que 150.")
 
+if NUM2 < 150:
+    print(f"O segundo número ({NUM2}) é menor que 150.")
+elif NUM2 == 150:
+    print(f"O segundo número ({NUM2}) é igual a 150.")
+else:
+    print(f"O segundo número ({NUM2}) é maior que 150.")
 
-soma = num1 + num2
+soma = NUM1 + NUM2
 if soma > 300:
     print("A soma dos dois números é maior que 300.")
 else:
     print("A soma dos dois números NÃO é maior que 300.")
+
+
     
 '''9. Crie um programa que exiba na tela os dias da semana. Defina os dias da semana
 como constantes do tipo String. Solicite ao usuário que digite um número entre 1 e 7,
@@ -208,17 +231,34 @@ para o usuário.'''
  
 #Resposta
  
-dias_da_semana = [
-    "segunda-feira", "terça-feira", "quarta-feira", 
-    "quinta-feira", "sexta-feira", "sábado", "domingo"
-]
+# Constantes para os dias da semana
+DIA1 = "domingo"
+DIA2 = "segunda-feira"
+DIA3 = "terça-feira"
+DIA4 = "quarta-feira"
+DIA5 = "quinta-feira"
+DIA6 = "sexta-feira"
+DIA7 = "sábado"
 
 numero = int(input("Digite um número de 1 a 7: "))
 
-if 1 <= numero <= 7:
-    print("Dia da semana:", dias_da_semana[numero - 1])
+if numero == 1:
+    print("Dia da semana:", DIA1)
+elif numero == 2:
+    print("Dia da semana:", DIA2)
+elif numero == 3:
+    print("Dia da semana:", DIA3)
+elif numero == 4:
+    print("Dia da semana:", DIA4)
+elif numero == 5:
+    print("Dia da semana:", DIA5)
+elif numero == 6:
+    print("Dia da semana:", DIA6)
+elif numero == 7:
+    print("Dia da semana:", DIA7)
 else:
     print("Erro: número inválido. Digite um número entre 1 e 7.")
+
 
 '''10. Crie um programa que exiba na tela os meses do ano por extenso. Defina os meses
 como constantes do tipo String. Solicite ao usuário que digite um número entre 1 e
@@ -229,20 +269,49 @@ uma mensagem de erro para o usuário.'''
 
 #Resposta
 
-meses = [
-    ("Janeiro", 31), ("Fevereiro", 28), ("Março", 31),
-    ("Abril", 30), ("Maio", 31), ("Junho", 30),
-    ("Julho", 31), ("Agosto", 31), ("Setembro", 30),
-    ("Outubro", 31), ("Novembro", 30), ("Dezembro", 31)
-]
+# Constantes para os meses do ano e seus dias
+MES1 = "Janeiro"; DIAS1 = 31
+MES2 = "Fevereiro"; DIAS2 = 28
+MES3 = "Março"; DIAS3 = 31
+MES4 = "Abril"; DIAS4 = 30
+MES5 = "Maio"; DIAS5 = 31
+MES6 = "Junho"; DIAS6 = 30
+MES7 = "Julho"; DIAS7 = 31
+MES8 = "Agosto"; DIAS8 = 31
+MES9 = "Setembro"; DIAS9 = 30
+MES10 = "Outubro"; DIAS10 = 31
+MES11 = "Novembro"; DIAS11 = 30
+MES12 = "Dezembro"; DIAS12 = 31
 
 numero = int(input("Digite um número de 1 a 12: "))
 
-if 1 <= numero <= 12:
-    nome, dias = meses[numero - 1]
-    print(f"Mês: {nome}, Dias: {dias}")
+if numero == 1:
+    print(f"Mês: {MES1}, Dias: {DIAS1}")
+elif numero == 2:
+    print(f"Mês: {MES2}, Dias: {DIAS2}")
+elif numero == 3:
+    print(f"Mês: {MES3}, Dias: {DIAS3}")
+elif numero == 4:
+    print(f"Mês: {MES4}, Dias: {DIAS4}")
+elif numero == 5:
+    print(f"Mês: {MES5}, Dias: {DIAS5}")
+elif numero == 6:
+    print(f"Mês: {MES6}, Dias: {DIAS6}")
+elif numero == 7:
+    print(f"Mês: {MES7}, Dias: {DIAS7}")
+elif numero == 8:
+    print(f"Mês: {MES8}, Dias: {DIAS8}")
+elif numero == 9:
+    print(f"Mês: {MES9}, Dias: {DIAS9}")
+elif numero == 10:
+    print(f"Mês: {MES10}, Dias: {DIAS10}")
+elif numero == 11:
+    print(f"Mês: {MES11}, Dias: {DIAS11}")
+elif numero == 12:
+    print(f"Mês: {MES12}, Dias: {DIAS12}")
 else:
     print("Erro: número inválido. Digite um número entre 1 e 12.")
+
     
 '''11. Peça que o usuário informe três valores inteiros positivos que representam os lados
 de um triângulo. Verifique se os valores informados podem formar um triângulo. Se
@@ -293,7 +362,7 @@ try:
 except ValueError:
     print("Erro: Por favor, digite apenas números inteiros.")
 
-
+#feita pela professor uso para melhor entendimento
 #Questões01
 
 try:
@@ -319,7 +388,7 @@ try:
         print("Pelo menos um dos números é multiplo de 5")
         
     else:
-        print("Os números informados não são multiplos de 5-")                       
+        print("Os números informados não são multiplos de 5")                       
 
 except ValueError:
     print(f"Número inválido. O valor informado não é um inteiro válido. Erro do compilador {e}")
