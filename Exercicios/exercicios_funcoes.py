@@ -1,23 +1,26 @@
- '''1. Crie uma função que verifica se um número é primo. Lembrando
+'''1. Crie uma função que verifica se um número é primo. Lembrando
 que: números primos são números naturais maiores que 1 que
 possuem apenas dois divisores positivos: 1 e o próprio número (2,
 3, 5, 7,11, etc…).'''
 #Respota
 
-def verifica_primo(primo)
-    
-    if primo <= 1
+def verifica_primo(primo):
+    if primo <= 1:
         return False
-    for i in range(2, int(primo ** 0,5) + 1):
+    for i in range(2, int(primo ** 0.5) + 1):
         if primo % i == 0:
             return False
     return True
-numero = int(input("Digite o número  ser verificado: "))
-    
-      
-           
 
 
+numero = int(input("Digite o número a ser verificado: "))
+
+if verifica_primo(numero):
+    print(f"{numero} é primo!")
+else:
+    print(f"{numero} não é primo.")
+
+       
 '''2. Crie uma função que retorna o maior valor inteiro, dentre 3
 passados como parâmetro, para a função.'''
 
