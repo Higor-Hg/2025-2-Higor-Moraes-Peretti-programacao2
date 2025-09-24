@@ -15,3 +15,9 @@ def verifica_primo(numero):
             return False
 
     return True
+
+'''2. Crie uma função que retorna o maior valor inteiro, dentre 3
+passados como parâmetro, para a função.'''
+
+def maior(numero1, numero2, numero3):
+    

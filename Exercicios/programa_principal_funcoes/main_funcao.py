@@ -19,3 +19,6 @@ try:
 
 except ValueError:
     print(f"{numero} não é um número válido para calculo de números primos.")  
+    
+    
+    
