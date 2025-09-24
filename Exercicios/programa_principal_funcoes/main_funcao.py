@@ -1,7 +1,11 @@
-from custom_utils.funcoes_de_usuario import*
+import sys 
+
+sys.path.append(r"C:\Users\ADM\Documents\GitHub\2025-2-Higor-Moraes-Peretti-programacao2")
+
+from custom_utils.funcoes_de_usuario import *
+
 
 #Programa principal Q1
-
 numero = 0
 try:
    numero = int(input("Verificar número primos. Digite um número: ")) 
@@ -12,8 +16,6 @@ try:
    else:
         print(f"{numero} NÃO um número primo.")
           
-
-
 
 except ValueError:
     print(f"{numero} não é um número válido para calculo de números primos.")  
