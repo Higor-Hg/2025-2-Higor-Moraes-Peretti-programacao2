@@ -23,10 +23,30 @@ else:
        
 '''2. Crie uma função que retorna o maior valor inteiro, dentre 3
 passados como parâmetro, para a função.'''
+#Resposta
 
+def maior(numero1, numero2, numero3):
+    if numero1 > numero2 and numero1 > numero3:
+        return numero1
+    
+    elif numero2 > numero1 and numero2 > numero3:
+        return numero2    
+    
+    elif numero3 > numero1 and numero3 > numero2:
+        return numero3
+    
+    else:
+        print("Os valores passados por parâmetro são iguais.")        
 
 '''3. Crie uma função para calcular o fatorial de um número.'''
+#Resposta
 
+def fatorial(numero):
+    if numero == 0 or numero == 1:
+        return 1
+    
+    return numero * fatorial(numero - 1) 
+       
 '''4. Crie uma função que retorna a média entre 4 números passados
 como parâmetros.'''
 
