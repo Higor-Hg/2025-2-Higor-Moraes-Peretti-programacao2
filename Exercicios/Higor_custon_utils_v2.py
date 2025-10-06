@@ -1,6 +1,6 @@
 import re
 
-menu = """
+menu_principal = """
 ========= MENU =========
 1 - Operadores
 2 - Palavras Reservadas no Python
@@ -16,90 +16,101 @@ menu = """
 Sair - Finalizar programa
 =========================
 """
-operadores = 'Aritméticos: + (soma), - (subtração), * (multiplicação)\nComparação: == (igual), != (diferente), > (maior)\nLógicos: and, or, not'
+
+
+def operadores(OperadoresALC):
+     return (
+        "Operadores Aritméticos: + (adição), - (subtração), * (multiplicação)\n"
+        "Operadores de Comparação: == (igualdade), != (diferente), > (maior)\n"
+        "Operadores Lógicos: and, or, not\n"
+    )
+        
+    
 Palavras_Reservadas = 'if, else, for, while, break, continue, def, return, class, import' 
-Tipos_de_dados =
-Conceito_de_Variável =
-Verificar_Ano_bissexto =
-vogais_da_frase =
-palavras_da_fras =e
-Inverter_frase =
-Validar_senha =
-Validar_CPF =
-Verificar_triângulo =
+
+Tipos_de_dados = 'int (inteiro), float (número decimal), str (texto), bool (verdadeiro/falso)'
+
+Conceito_de_Variável = 'Variável é um espaço de memória para guardar dados.\não pode começar com número, não pode ter espaço, nem caracteres especiais (só _).\nSão usadas para armazenar valores que podem mudar no programa.'    
+
+def ano_bissexto(ano):
+    if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+        return True
+        
+    else:
+        return False
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #programa principal
-print(menu)
 
-menu = int(input("Digite o número que corresponde a qual você BUSCA no menu: "))
+print(menu_principal)
+
+menu = input("Digite o número que corresponde a qual você BUSCA no menu: ")
+
+ if opcao.lower() == "sair":
+        print("Programa finalizado. Até mais!")
+        break
+   
+   
+elif opcao == "1":
+        print(operadores())    
     
-if menu == 1:
-    print("Operadores")
-    print(operadores)
+elif menu == '2':  
+   print() 
+   
+elif menu == '3':
+   print() 
+     
 
-elif menu == 2:  
-    print("Palavras reservadas:")
-    print(Palavras_Reservadas)
+elif menu == '4':
+   print() 
 
-elif menu == 3:
+elif menu == '5':
+    ano = int(input("Digite um ano para verificar se o mesmo é bissexto: "))
+    
+    if ano_bissexto(ano):
+        print('É Bissexto')
+        
+    else:
+        print('Não é bissexto')
+
+    
+elif menu == '6':
     print("")
-    print()
-elif menu == 4:
-    print("")
-    print()
-elif menu == 5:
-    print("")
-    print()
-elif menu == 6:
-    print("")
-    print()
-elif menu == 7:
-    print("")
-    print()
-elif menu == 8:
-    print("")
-    print()
-elif menu == 9:
-    print("")
-    print()
-elif menu == 10:
+  
+
+elif menu == '7':
     print("")
     print()
 
+elif menu == '8':
+    print("")
+    print()
 
+elif menu == '9':
+    print("")
+    print()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+elif menu == '10':
+    print("")
+  
+elif menu == '11':
+    print()
