@@ -85,12 +85,12 @@ string_maiuscula = converter_maiuscula(minha_string)
 print(f"String original: {minha_string}")
 print(f"String em maiúsculo: {string_maiuscula}")
 
-'''#Q2
+#Q2
 
 frase = input("Digite uma Frase:")
 palavra = input("Digite UMA PALAVRA da frase:")
 print(f'Palavra na frase: {palavra_frase(frase, palavra)}')
-'''
+
 #Q3
 frase_original = input("Digite a Frase:")
 palavra_a_substituir = input("Digite a palavra a substituir:")
