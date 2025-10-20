@@ -26,3 +26,9 @@ meu_dicionario= {
     
     5:"linguagem",
 }
+
+'''clear() - Remove todos os elementos de um dicionário;
+   gel(<chave>)-Pesquisa o dicionário por uma chave e retorna o valor correspondente
+
+
+'''
