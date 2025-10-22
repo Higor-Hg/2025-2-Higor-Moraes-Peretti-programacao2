@@ -1,35 +1,42 @@
 #INTRODUÇÃO DE ESTRUTURA DE DADOS LISTA DO PYTHON 
 
-#---------------------------------------------------------------------------------
-'''Uma lista é uma sequência de valores que pode ser de qualquer tipo;
-Os valores em uma lista são chamados de elementos ou itens;
-Há várias formas de criar uma lista.A mais simples é clocar os elementos entre
-colchetes [e];'''
-variavleDoTipoLista = [10,20,30,40]
-
-for itemDaLista in variavleDoTipoLista:
-    print(itemDaLista)
-
-for i in range(len(variavleDoTipoLista)):
-    variavleDoTipoLista[i] = variavleDoTipoLista[i] * 2
-    
-variavleDoTipoLista == [20,40,60,80]   
-
-#-----------------------------------------------------------------------------------
-
-variavleDoTipoLista2 = ['Programação', 'Banco de Dados', 'Redes de Computadores']
-
-if "Banco de Dados" in variavleDoTipoLista2:
-    print("True")
-
-else:
-    print("False")
-    
-#-----------------------------------------------------------------------
+#Uma lista é uma equência de valores que podem ser ode qualquer tipo:
+#Os valores em uma lista são chamados de elementos ou itens;
+"""Há várias formas para criar uma lista. A mais simples é colocar os elementos
+   entre COLCHETES [ e ]"""
    
-'''Permite elementos de tipos diferentes: string, número de ponto'''
+variavelDoTipoLista = [10, 20, 30, 40]
+variavelDoTipoLista2 = ['Programação', 'Bancos de Dados','Redes de Computadores']
 
-variavleDoTipoLista3 = ['spam',20,5[10,20]]
+"""Permite elementos de tipos diferentes: atring, número de ponto flutuante, um número inteiro etc..."""
+
+variavelDoTipoLista3 = ['spam', 2.0, 5, [10,20]]
+
+#O operador in funciona com listas:
+
+variavelDoTipoLista2 = ['Programação','Banco de Dados','Redes de Computadores']
+
+if"Banco de Dados" in variavelDoTipoLista2:
+    print("True")
+    
+else:
+     print("False")
+     
+"""A forma mais comum de percorrer os elementos em uma lista é com um loop for.
+   A sintaxe é a mesma que a das strings;"""
+   
+for itemDalista in variavelDoTipoLista:
+    print(itemDalista)
+
+"""Para escrever ou atualizar elementos, será necessário utilizar os índices.
+   Combinar as funções integradas range e len, permite alcançar esseresultado:"""
+    
+variavelDoTipoLista = [10, 20, 30, 40]
+
+for i in range(len(variavelDoTipoLista)):
+    variavelDoTipoLista[i] = variavelDoTipoLista[i] * 2
+    
+variavelDoTipoLista = [20, 40, 60, 80]
 
 
 

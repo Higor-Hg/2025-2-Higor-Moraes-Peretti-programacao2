@@ -38,7 +38,7 @@ def substituir_palavra(frase, palavra_antiga, palavra_nova):
 4 – Crie uma função que receba uma palavra e verifique se ela é um palíndromo (ignorar espaços e
 maiúsculas/minúsculas). A função deve retornar um booleano.
 '''
-def palavra_palindromo()
+def palavra_palindromo():
     print()
 
 
