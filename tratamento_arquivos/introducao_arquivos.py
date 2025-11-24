@@ -19,7 +19,7 @@ with open('exemplo.txt', 'r', encoding='utf-8') as f:
 with open('exemplo.txt', 'r', encoding='utf-8') as f:
     linhas = f.readlines() #Lê linha por linha em lista 
     
-f.seek(0)#MOve o cursor para o início
+f.seek(0)#Move o cursor para o início
     
 with open('exemplo.txt', 'r', encoding='utf-8') as f:
     linhas = f.readline() #Lê uma linha por vez, usra laço de repetição
