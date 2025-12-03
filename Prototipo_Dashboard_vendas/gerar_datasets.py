@@ -148,3 +148,4 @@ df_produtos.to_excel(pasta_datasets / "produtos.xlsx"
 
 print("Geração dos datasets concluída com sucesso.")
         
+        
