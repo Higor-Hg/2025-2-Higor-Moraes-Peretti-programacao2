@@ -1,107 +1,133 @@
-'''
-1 - Crie uma função que receba uma string como parâmetro, e retorne uma string em maiúsculo da 
-string que foi passada por parâmetro.
-'''
+# 1 - Crie uma função que receba uma string como parâmetro, 
+# e retorne a string em maiúsculo.
+
 def converter_maiuscula(texto):
-
-  return texto.upper()
-
-
-'''
-2 – Crie uma função que receba 2 parâmetros: o 1º parâmetro deve ser uma frase do tipo string; o 2º
-parâmetro deve ser uma palavra do tipo string. A função deverá retornar True se a palavra estiver
-na frase passada como parâmetro, caso contrário, deverá retornar False.
-'''
-
-def palavra_frase(frase,palavra):
-    frase = frase.lower()
-    palavra = palavra.lower()
-    if palavra in frase:
-        return True
-    
-    else:
-        return False
+    return texto.upper()
 
 
-'''
-3 – Crie uma função que receba 3 parâmetros:
-➢ 1º parâmetro deve ser uma frase;
-➢ 2º parâmetro deve ser uma palavra que esteja na frase;
-➢ 3º parâmetro deve ser uma nova palavra, que vai substituir na frase do 1º parâmetro, a
-palavra passada no 2º parâmetro.
-A função deverá retornar uma nova frase contendo a alteração solicitada no requisito da função.
-'''
+# 2 - Crie uma função que receba uma frase e uma palavra
+# e retorne True se a palavra estiver na frase, senão False.
+
+def palavra_na_frase(frase, palavra):
+    return palavra.lower() in frase.lower()
+
+
+# 3 - Crie uma função que receba uma frase, uma palavra antiga 
+# e uma nova palavra e retorne a frase com a substituição.
+
 def substituir_palavra(frase, palavra_antiga, palavra_nova):
     return frase.replace(palavra_antiga, palavra_nova)
 
-'''
-4 – Crie uma função que receba uma palavra e verifique se ela é um palíndromo (ignorar espaços e
-maiúsculas/minúsculas). A função deve retornar um booleano.
-'''
-def palavra_palindromo():
-    print()
+
+# 4 - Crie uma função que receba uma palavra e verifique 
+# se ela é um palíndromo (ignorando espaços e maiúsculas).
+
+def eh_palindromo(texto):
+    texto = texto.lower().replace(" ", "")
+    return texto == texto[::-1]
 
 
-'''
-5 – Crie uma fun'ção que receba um texto como parâmetro. A função deve retornar a quantidade de
-vogais do texto.
-'''
+# 5 - Crie uma função que receba um texto e retorne 
+# a quantidade de vogais desse texto.
 
-'''
-6 – Crie uma função que receba uma frase como parâmetro e retorne uma nova string que é a
-primeira palavra dessa frase.
-'''
-
-'''
-7 – Crie uma função que receba 3 parâmetros:
-➢ 1º parâmetro deve ser uma frase;
-➢ 2º parâmetro deve ser um caracter (uma letra) que será utilizado p/ saber se a frase inicia
-com esse caracter;
-➢ 3º parâmetro deve ser um caracter (uma letra) que será utilizado p/ saber se a frase termina
-com esse caracter.
-A função deve usar expressões lógicas e retornar um booleano.
-'''
-
-'''
-8 – Crie uma função que receba um texto como parâmetro e retorne um valor inteiro que represente
-a quantidade de palavra desse texto.
-'''
-
-'''
-9 – Crie uma função que receba um texto como parâmetro que contenha pontuação: pontos, vírgulas
-e pontos de exclamação. A função deverá remover essa pontuação e retornar um novo texto.
-'''
+def contar_vogais(texto):
+    vogais = "aeiouAEIOU"
+    contador = 0
+    for letra in texto:
+        if letra in vogais:
+            contador += 1
+    return contador
 
 
+# 6 - Crie uma função que receba uma frase e retorne 
+# a primeira palavra dela.
 
-#Programa Principal
-
-print("---------------------------------INÍCIO----------------------------------------")
-
-#Q1
-minha_string = "olá, mundo!"
-string_maiuscula = converter_maiuscula(minha_string)
-
-print(f"String original: {minha_string}")
-print(f"String em maiúsculo: {string_maiuscula}")
-
-#Q2
-
-frase = input("Digite uma Frase:")
-palavra = input("Digite UMA PALAVRA da frase:")
-print(f'Palavra na frase: {palavra_frase(frase, palavra)}')
-
-#Q3
-frase_original = input("Digite a Frase:")
-palavra_a_substituir = input("Digite a palavra a substituir:")
-nova_palavra = input("Digite a nova palavra:")
-
-frase_alterada = substituir_palavra(frase_original, palavra_a_substituir, nova_palavra)
-
-print("Frase original:", frase_original)
-print("Nova frase:", frase_alterada)
-
-#Q4
+def primeira_palavra(frase):
+    return frase.split()[0]
 
 
+# 7 - Crie uma função que receba uma frase, um caractere inicial 
+# e um caractere final e retorne um booleano.
 
+def verifica_inicio_fim(frase, inicio, fim):
+    return frase.startswith(inicio) and frase.endswith(fim)
+
+
+# 8 - Crie uma função que receba um texto e retorne 
+# a quantidade de palavras.
+
+def contar_palavras(texto):
+    return len(texto.split())
+
+
+# 9 - Crie uma função que receba um texto com pontuação 
+# e retorne o texto sem pontos, vírgulas e exclamações.
+
+def remover_pontuacao(texto):
+    pontuacoes = ".,!"
+    for p in pontuacoes:
+        texto = texto.replace(p, "")
+    return texto
+
+# ---------------- PROGRAMA PRINCIPAL ----------------
+
+print("\nTRATAMENTO DE STRINGS - TESTE DE FUNÇÕES\n")
+
+# 1
+print("1) Converter para maiúsculas")
+texto = input("Texto: ")
+print("Resultado:", converter_maiuscula(texto))
+print()
+
+# 2
+print("2) Verificar palavra na frase")
+frase = input("Frase: ")
+palavra = input("Palavra: ")
+print("Resultado:", palavra_na_frase(frase, palavra))
+print()
+
+# 3
+print("3) Substituir palavra")
+frase = input("Frase: ")
+antiga = input("Palavra antiga: ")
+nova = input("Nova palavra: ")
+print("Resultado:", substituir_palavra(frase, antiga, nova))
+print()
+
+# 4
+print("4) Verificar palíndromo")
+texto = input("Texto: ")
+print("Resultado:", eh_palindromo(texto))
+print()
+
+# 5
+print("5) Contar vogais")
+texto = input("Texto: ")
+print("Resultado:", contar_vogais(texto))
+print()
+
+# 6
+print("6) Primeira palavra da frase")
+frase = input("Frase: ")
+print("Resultado:", primeira_palavra(frase))
+print()
+
+# 7
+print("7) Verificar início e fim")
+frase = input("Frase: ")
+inicio = input("Caractere inicial: ")
+fim = input("Caractere final: ")
+print("Resultado:", verifica_inicio_fim(frase, inicio, fim))
+print()
+
+# 8
+print("8) Contar palavras")
+texto = input("Texto: ")
+print("Resultado:", contar_palavras(texto))
+print()
+
+# 9
+print("9) Remover pontuação")
+texto = input("Texto com pontuação: ")
+print("Resultado:", remover_pontuacao(texto))
+print()
