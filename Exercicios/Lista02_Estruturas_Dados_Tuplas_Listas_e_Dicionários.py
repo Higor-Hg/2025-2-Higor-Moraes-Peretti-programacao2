@@ -1,190 +1,116 @@
-#1. Crie uma tupla com 5 nomes e imprima o segundo nome.
+print("Lista 02 - Estruturas de Dados")
 
-#Questâo Resosta 1
+# 1
+print("\nQuestão 1")
+nomes = ("Higor", "Enzin", "Otávio", "Douglas", "Jackson")
+print("Segundo nome:", nomes[1])
 
-"""nomes = ("Higor", "Enzin", "Otávio", "Douglas", "Jackson")
+# 2
+print("\nQuestão 2")
+numeros = [1, 2, 3, 4, 5]
+print("Soma:", sum(numeros))
 
-print(f"O segundo nome na tupla é {nomes[1]}")"""
+# 3
+print("\nQuestão 3")
+aluno = {"nome": "Creito", "idade": 46, "curso": "TDS"}
+print(aluno)
 
-#2. Crie uma lista com 5 números inteiros e imprima a soma de todos os elementos.
+# 4
+print("\nQuestão 4")
+minha_lista = [1, 2, 3, 4, 5]
+print("Tipo antes:", type(minha_lista))
+print("Tipo depois:", type(tuple(minha_lista)))
 
-#Questâo Resosta 2
+# 5
+print("\nQuestão 5")
+frutas = ['Maçã', 'Banana', 'Laranja']
+frutas.append('Uva')
+print(frutas)
 
-"""numeros = [1, 2, 3, 4, 5]
-
-soma_total = sum(numeros)
-print(f"A soma dos números é igual a {soma_total} ")
-"""
-"""3. Crie um dicionário com 3 pares (chave: valor) representando um aluno (nome, idade,
-curso). Imprima cada valor."""
-
-#Questâo Resosta 3
-
-"""dicionario = {1: "Creito",
-        2: 46,
-        3: "TDS"
-        }
-
-print(f"Nome = {dicionario[1]}, Idade = {dicionario[2]}, curso = {dicionario[3]} ")"""
-
-#4. Converta uma lista em tupla e imprima o tipo antes e depois da conversão.
-
-#Questâo Resosta 4
-
-"""minha_lista = [1, 2, 3, 4, 5]
-print(f"Imprimindo a lista: {minha_lista}")
-
-minha_tupla = tuple(minha_lista)
-print(f"Imprimindo a tupla: {minha_tupla}")
-"""
-#5. Adicione um novo elemento ao final de uma lista de frutas e imprima a nova lista.
-
-#Questâo Resosta 5
-"""
-lista = ['Maçã', 'banana', 'laranja']
-print(f"Lista antes da adição: {lista}")
-
-lista.append('uva')
-print(f"Lista depois da adição: {lista}")
-"""
-"""6. Crie uma lista com números de 1 a 10. Remova os números pares da lista e imprima
-o resultado."""
-
-#Questâo Resosta 6
-
-"""LISTA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-numeros_impares = [num for num in LISTA if num % 2 != 0]
+# 6
+print("\nQuestão 6")
+numeros_impares = [n for n in range(1, 11) if n % 2 != 0]
 print(numeros_impares)
-"""
-#7. Dado um dicionário com nomes de produtos e preços, encontre o produto mais caro.
 
-#Questâo Resosta 7
+# 7
+print("\nQuestão 7")
+produtos = {'maçã': 7, 'feijão': 10, 'pão': 3, 'carne': 9}
+print("Produto mais caro:", max(produtos, key=produtos.get))
 
-"""produtos = {'maçã': 7,
-    'feijão': 10,
-    'pão': 3,
-    'carne': 9
-    }
-maior_valor = max(produtos.values())
-print(f"O maior valor entre os produtos é {maior_valor}")"""
+# 8
+print("\nQuestão 8")
+nums = (1,2,3,4,5,6,7,8,9,10)
+print("Maior:", max(nums), "Menor:", min(nums))
 
-#8. Crie uma tupla com 10 números e encontre o maior e o menor valor.
-
-#Questâo Resosta 8
-
-"""varios_numeros = (1,2,3,4,5,6,7,8,9,10)
-maior_numero = max(varios_numeros)
-menor_numero = min(varios_numeros)
-print(f"O maior valor é {maior_numero} e o menor é {menor_numero}")"""
-
-"""9. Crie uma lista de dicionários, onde cada dicionário representa um aluno com as
-chaves: "nome", "nota". Imprima os nomes dos alunos com nota maior que 7."""
-
-#Questâo Resosta 9
-
-"""alunos = [{"nome": "João V.",     "nota": 7.1,},
-          {"nome": "Cleiton",     "nota": 4,  },
-          {"nome": "Vitor",       "nota": 6,  },
-          {"nome": "João G.",     "nota": 10, },
-          {"nome": "Maria",       "nota": 9,  }
-         ]
-
+# 9
+print("\nQuestão 9")
+alunos = [
+    {"nome": "João V.", "nota": 7.1},
+    {"nome": "Cleiton", "nota": 4},
+    {"nome": "Vitor", "nota": 6},
+    {"nome": "João G.", "nota": 10},
+    {"nome": "Maria", "nota": 9}
+]
 for aluno in alunos:
     if aluno["nota"] > 7:
-        print(aluno["nome"])"""
-        
-#10. Inverta uma lista de palavras e imprima o resultado.
+        print(aluno["nome"])
 
-#Questâo Resosta 10
+# 10
+print("\nQuestão 10")
+palavras = ["Uva", "Pera", "Maçã", "Melancia"]
+print(list(reversed(palavras)))
 
-"""palavrinhas = ["Uva", "pera", "Maçã", "melancia"]
-palavras_invertidas = palavrinhas [::-1]
-print(palavras_invertidas)"""
+# 11
+print("\nQuestão 11")
+notas = {
+    "Lucas": [9, 3, 10],
+    "Maria": [5, 7, 1],
+    "Vitor": [10, 10, 10]
+}
+for nome, n in notas.items():
+    media = sum(n) / len(n)
+    print(nome, "=", media)
 
-
-"""11. Crie um dicionário onde a chave é o nome de uma pessoa e o valor é uma lista de
-suas notas. Imprima a média de cada pessoa."""
-
-#Questâo Resosta 11
-
-"""notas = {"Lucas": [9, 3, 10],
-         "maria": [5, 7, 1],
-         "vitor": [10, 10, 10,]}
-
-for aluno, nota in notas.items():
-    media = sum(nota) / len(nota)
-    print(f"{'nome'}={media}")"""
-    
-"""12. Dado uma lista de tuplas representando transações (cliente, valor), calcule o total
-gasto por cada cliente."""
-
-#Questâo Resosta 12
-
+# 12
+print("\nQuestão 12")
 clientes = [
     ("Claudio", [9.0, 32.5, 9.0]),
     ("Marcos", [45.0, 29.99, 30.0]),
     ("Lucas", [100.0, 99.99, 1.0])
 ]
+for nome, valores in clientes:
+    print(nome, "gastou R$", sum(valores))
 
-for cliente, valor in clientes:
-    gasto_total = sum(valor)
-    print(f"O cliente {cliente} gastou um total de R$ {gasto_total:.2f}")
-
-"""13. Crie uma função que recebe uma lista de strings e retorna um dicionário com a
-contagem de cada letra."""
-
-#Questâo Resosta 13
-
-"""def contador_palavras(lista_string):
+# 13
+print("\nQuestão 13")
+def contar_letras(lista):
     contagem = {}
-
-    for palavra in lista_string:
-        for letra in palavra:
-            letra = letra.lower()
-            
-            if letra not in contagem:
-                contagem[letra] = 1
-            
+    for palavra in lista:
+        for letra in palavra.lower():
+            if letra in contagem:
+                contagem[letra] += 1
             else:
-                contagem[letra] +=1
-                
-    return contagem"""
+                contagem[letra] = 1
+    return contagem
 
-#Programa principal
+print(contar_letras(["Maçã", "Vida", "Morte"]))
 
-"""palavras = ["Maçã", "Vida", "Morte"]
-resultado = contador_palavras(palavras)
-print(resultado)"""
-"""14. Crie um dicionário invertido: dado um dicionário {chave: valor}, crie um novo
-dicionário {valor: chave}."""
-
-#Questâo Resosta 14
-
-normal ={"Pessoas": 10,
-         "Animais": 23,
-         "Casas":   12,}
-
-invertido = dict(reversed(list(normal.items())))
+# 14
+print("\nQuestão 14")
+normal = {"Pessoas": 10, "Animais": 23, "Casas": 12}
+invertido = {v: k for k, v in normal.items()}
 print(invertido)
 
-"""15. Crie uma lista de números e use um dicionário para contar quantas vezes cada
-número aparece na lista."""
-
-#Questâo Resosta 15
-
-def contador_numeros(lista_numeros):
+# 15
+print("\nQuestão 15")
+def contar_numeros(lista):
     contagem = {}
-
-    for numero in lista_numeros:
-        for digito in str(numero):
-            if digito not in contagem:
-                contagem[digito] = 1
-            else:
-                contagem[digito] += 1
-                
+    for numero in lista:
+        if numero in contagem:
+            contagem[numero] += 1
+        else:
+            contagem[numero] = 1
     return contagem
-    
-# Programa principal
-numeros = [1234, 231, 1]
-resultado = contador_numeros(numeros)
-print(resultado)
+
+print(contar_numeros([1234, 231, 1, 1234, 1, 1]))
+
