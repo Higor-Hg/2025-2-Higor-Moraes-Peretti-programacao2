@@ -47,19 +47,49 @@ def calcular_media(num1, num2, num3, num4):
     #média = (num1 + num2 + num3 + num4) / 4
     return (num1 + num2 + num3 + num4) / 4
 
-'''5. Função que verifica se uma string é um palíndromo.'''
-#Resposta
-def
+# 5. Função que verifica se uma string é um palíndromo.
+def eh_palindromo(texto):
+    # Remove espaços e deixa tudo em minúsculas
+    texto_formatado = texto.replace(" ", "").lower()
+    return texto_formatado == texto_formatado[::-1]
 
 
-
-
-
-
-'''6. Crie uma função que receba uma string como parâmetro e retorne
-a quantidade de vogais (a, e, i, o, u) presentes nela.'''
-#resposta
+# 6. Função que conta a quantidade de vogais em uma string
 def contar_vogais(palavra_ou_frase):
     VOGAIS = "aeiou"
-    contador_de_vogais
+    contador_de_vogais = 0
+
+    for letra in palavra_ou_frase.lower():
+        if letra in VOGAIS:
+            contador_de_vogais += 1
+
+    return contador_de_vogais
+
+
+# 7. Função que retorna uma string invertida
+def inverter_string(texto):
+    return texto[::-1]
+
+
+# 8. Função que conta quantas palavras existem em uma frase
+def contar_palavras(frase):
+    # Remove espaços extras e divide a frase
+    palavras = frase.strip().split()
+    return len(palavras)
+
+
+# 9. Função que substitui um caractere antigo por um novo
+def substituir_caractere(texto, antigo, novo):
+    return texto.replace(antigo, novo)
+
+
+# 10. Função que remove pontuação usando a biblioteca string
+import string
+
+def remover_pontuacao(texto):
+    return texto.translate(str.maketrans('', '', string.punctuation))
+
+
+
+
         
