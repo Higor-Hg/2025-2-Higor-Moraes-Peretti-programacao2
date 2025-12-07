@@ -1,85 +1,97 @@
-'''1) Crie uma estrutura de repetição que percorra a String “Instituto Federal
-de Santa Catarina” exibindo na tela letra por letra dessa String, tanto na
-orientação horizontal quanto na vertical.'''
-#Resposta
+
+# 1) Percorrer a string na horizontal e vertical
 texto = "Instituto Federal de Santa Catarina"
 
-
+print("\nHorizontal:")
 for letra in texto:
     print(letra, end=" ")
-print() 
 
-
+print("\n\nVertical:")
 for letra in texto:
     print(letra)
 
 
-
-'''2) Crie um programa que realiza a contagem de 0 a 20, exibindo apenas os
-números pares.'''
-#Resposta
-
-for numero in range(0, 21, 2):
-    print(numero)
+# 2) Contagem de 0 a 20 exibindo apenas os pares
+print("\n\nNúmeros pares de 0 a 20:")
+for numero in range(0, 21):
+    if numero % 2 == 0:
+        print(numero)
 
 
+# 3) Tabuada de um número digitado pelo usuário
+numero = int(input("\n\nDigite um número para ver a tabuada: "))
 
-'''3) Crie um programa que exiba na tela a tabuada de um determinado número
-fornecido pelo usuário.'''
-#Resposta
-
-numero = int(input("Digite um número para ver a tabuada: "))
-
+print(f"\nTabuada do {numero}:")
 for i in range(1, 11):
     print(f"{numero} x {i} = {numero * i}")
 
 
-
-'''4) Crie um programa que realiza a contagem regressiva de 20 segundos.'''
-#Resposta
-
+# 4) Contagem regressiva de 20 segundos
 import time
 
+print("\n\nContagem regressiva:")
 for seg in range(20, 0, -1):
     print(seg)
-    time.sleep(1)  
-print("Tempo esgotado!")
+    time.sleep(1)
+
+print("\nTempo esgotado!")
 
 
+# 5) Contar ímpares de 1 a 100, quantidade e soma
+quantidade_impares = 0
+soma_impares = 0
 
-'''5) Crie um programa que realiza a contagem de 1 até 100, considerando
-apenas os números ímpares. Exiba na tela quantos números ímpares
-foram encontrados nesse intervalo e qual a soma desses números
-ímpares.'''
-#Resposta
+for n in range(1, 101):
+    if n % 2 != 0:
+        quantidade_impares += 1
+        soma_impares += n
 
-
-
-
-
-
-
-'''6) Crie um programa que pede ao usuário que digite um número qualquer,
-em seguida retorne se esse número é primo ou não, caso não, retorne
-também quantas vezes esse número é divisível.'''
-#Resposta
+print("\n\nResultado dos números ímpares:")
+print("Quantidade:", quantidade_impares)
+print("Soma:", soma_impares)
 
 
+# 6) Verificar se número é primo e contar divisores
+numero = int(input("\n\nDigite um número: "))
+
+divisores = 0
+for i in range(1, numero + 1):
+    if numero % i == 0:
+        divisores += 1
+
+if divisores == 2:
+    print(f"\n{numero} é primo.")
+else:
+    print(f"\n{numero} NÃO é primo.")
+    print(f"Quantidade de divisores: {divisores}")
 
 
-'''7) Crie um programa que pede que o usuário digite um nome ou uma frase,
-verifique se esse conteúdo digitado é um palíndromo ou não, exibindo em
-tela esse resultado.'''
-#Resposta
+# 7) Verificar se é palíndromo
+frase = input("\n\nDigite uma palavra ou frase: ")
+
+frase_formatada = ""
+for letra in frase:
+    if letra != " ":
+        frase_formatada += letra.lower()
+
+if frase_formatada == frase_formatada[::-1]:
+    print("\nÉ um palíndromo!")
+else:
+    print("\nNão é um palíndromo.")
 
 
+# 8) Contar letras maiúsculas e minúsculas
+texto = input("\n\nDigite uma palavra ou frase: ")
 
+maiusculas = 0
+minusculas = 0
 
+for letra in texto:
+    if letra.isupper():
+        maiusculas += 1
+    elif letra.islower():
+        minusculas += 1
 
-'''8) Escreva um programa que lê uma palavra ou frase digitada pelo usuário,
-retornando o número de letras maiúsculas e minúsculas da mesma.
-Quando necessário, utilize funções nativas do Python (built-in).'''
-#Resposta
-
-
+print("\nMaiúsculas:", maiusculas)
+print("Minúsculas:", minusculas)
 
