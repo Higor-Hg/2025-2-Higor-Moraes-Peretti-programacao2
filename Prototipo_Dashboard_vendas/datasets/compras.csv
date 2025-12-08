@@ -1,101 +1,101 @@
 data_hora_compra;cidade_loja;estado_loja;vendedor;nome_produto;produto_id;preco_produto;cliente_nome;cliente_genero;forma_pagto;id_compra
-2024-12-10 15:25:29.909206;São Paulo;SP;Juninho Pernambucano;Mouse Gamer X11;3;200;Mary Lavender;Feminino;cartão de crédito;1
-2024-12-12 23:36:29.909206;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;Lori Goins;Masculino;pix;2
-2024-12-12 23:46:29.653403;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;Lindsey Alexis;Masculino;cartão de crédito;3
-2024-12-15 20:27:29.207316;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;David Burriss;Feminino;cartão de crédito;4
-2024-12-16 21:50:29.909206;Coronel Freitas;SC;Marcelo Caps;Fone De Ouvido KZ EDX Pro;4;70;Sheena Trejo;Feminino;cartão de débito;5
-2024-12-18 19:09:29.228849;Belo Horizonte;MG;Enzo;Fone De Ouvido KZ EDX Pro;4;70;Nikita Roberts;Masculino;boleto;6
-2024-12-18 23:09:29.909206;Rio de Janeiro;RJ;Cellbit;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Sharon Neill;Masculino;dinheiro;7
-2024-12-19 16:45:29.704718;Sapucaia do Sul;RS;Adamastor;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Robert Baker;Masculino;pix;8
-2024-12-23 15:42:29.513969;São Paulo;SP;Bruno Henrique;Notebook Dell Inspiron;1;3000;Ronald Benson;Feminino;pix;9
-2024-12-26 21:39:29.246647;Belo Horizonte;MG;Nathan;Controle Sem Fio 8BitDo;5;430;Victoria Roberrtson;Feminino;dinheiro;10
-2025-01-02 16:10:29.941095;Belo Horizonte;MG;Nathan;Notebook Dell Inspiron;1;3000;Tracy Laroche;Masculino;dinheiro;11
-2025-01-07 15:16:29.909206;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;Christine Guy;Feminino;cartão de crédito;12
-2025-01-07 17:34:29.956954;Sapucaia do Sul;RS;Adamastor;Fone De Ouvido KZ EDX Pro;4;70;Sean Baker;Masculino;boleto;13
-2025-01-07 17:49:29.956954;Rio de Janeiro;RJ;Gaules;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Jacob Swanson;Masculino;cartão de crédito;14
-2025-01-14 22:17:29.545705;Belo Horizonte;MG;Enzo;Notebook Dell Inspiron;1;3000;Danna Shedlock;Feminino;dinheiro;15
-2025-01-18 14:06:29.941095;Rio de Janeiro;RJ;Cellbit;Notebook Dell Inspiron;1;3000;Mellisa Ching;Feminino;pix;16
-2025-01-22 15:10:29.956954;Belo Horizonte;MG;Nathan;Fone De Ouvido KZ EDX Pro;4;70;Donald Nuuanu;Masculino;pix;17
-2025-01-26 23:12:29.234870;Belo Horizonte;MG;Enzo;Fone De Ouvido KZ EDX Pro;4;70;Manuel Godfrey;Masculino;cartão de crédito;18
-2025-01-27 17:02:29.956954;Rio de Janeiro;RJ;Gaules;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Lillian Green;Masculino;boleto;19
-2025-01-28 19:50:29.717606;Sapucaia do Sul;RS;Clovis;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Sara Mccurdy;Masculino;boleto;20
-2025-01-31 16:56:30.008497;Rio de Janeiro;RJ;Gaules;Fone De Ouvido KZ EDX Pro;4;70;Douglas Lilly;Feminino;boleto;21
-2025-02-03 17:21:29.412381;Coronel Freitas;SC;Mayron;Mouse Gamer X11;3;200;Janet Anderson;Feminino;boleto;22
-2025-02-05 23:28:29.935340;Belo Horizonte;MG;Nathan;Notebook Dell Inspiron;1;3000;Thresa Case;Masculino;pix;23
-2025-02-06 20:27:29.758420;Rio de Janeiro;RJ;Cellbit;Controle Sem Fio 8BitDo;5;430;Eric Ostrowski;Masculino;pix;24
-2025-02-07 16:46:29.430164;Coronel Freitas;SC;Marcelo Caps;Notebook Dell Inspiron;1;3000;Russell Alfaro;Masculino;cartão de débito;25
-2025-02-12 22:45:29.704718;Rio de Janeiro;RJ;Gaules;Notebook Dell Inspiron;1;3000;Sylvia Lauderdale;Feminino;cartão de débito;26
-2025-02-18 22:54:29.956954;Coronel Freitas;SC;Mayron;Fone De Ouvido KZ EDX Pro;4;70;Christine Dickerson;Feminino;cartão de débito;27
-2025-02-20 16:59:29.497895;Sapucaia do Sul;RS;Adamastor;Fone De Ouvido KZ EDX Pro;4;70;Michael Mckeighan;Feminino;cartão de crédito;28
-2025-02-27 16:19:29.031741;Coronel Freitas;SC;Mayron;Mouse Gamer X11;3;200;Lawrence Giacomini;Masculino;dinheiro;29
-2025-03-02 18:04:29.704718;Coronel Freitas;SC;Mayron;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Karen Timmons;Feminino;pix;30
-2025-03-03 20:00:29.529622;São Paulo;SP;Juninho Pernambucano;Controle Sem Fio 8BitDo;5;430;Loretta Holmquist;Masculino;boleto;31
-2025-03-09 15:14:29.956954;Sapucaia do Sul;RS;Clovis;Mouse Gamer X11;3;200;William Hartmann;Masculino;cartão de débito;32
-2025-03-09 15:35:29.768503;São Paulo;SP;Bruno Henrique;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Margaret Boothroyd;Masculino;cartão de crédito;33
-2025-03-10 20:06:29.380819;Sapucaia do Sul;RS;Clovis;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Bill Richardson;Feminino;cartão de débito;34
-2025-03-13 19:10:29.232864;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Mary Oconnor;Feminino;dinheiro;35
-2025-03-13 22:32:29.939351;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Francisco Angelo;Masculino;dinheiro;36
-2025-03-19 00:26:29.404362;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Robert Thomsen;Feminino;cartão de crédito;37
-2025-03-19 15:56:29.545705;Rio de Janeiro;RJ;Gaules;Fone De Ouvido KZ EDX Pro;4;70;Elizabeth Beebe;Masculino;dinheiro;38
-2025-03-21 00:37:29.242895;Rio de Janeiro;RJ;Gaules;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Shirley Reilly;Feminino;pix;39
-2025-03-24 16:18:29.435924;Belo Horizonte;MG;Nathan;Fone De Ouvido KZ EDX Pro;4;70;Lakisha Hodde;Masculino;pix;40
-2025-03-31 21:44:29.956954;Rio de Janeiro;RJ;Cellbit;Fone De Ouvido KZ EDX Pro;4;70;Willie Ortiz;Feminino;boleto;41
-2025-04-01 17:02:28.990349;São Paulo;SP;Juninho Pernambucano;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Fidel Boyce;Feminino;dinheiro;42
-2025-04-06 21:31:29.813672;Rio de Janeiro;RJ;Gaules;Notebook Dell Inspiron;1;3000;Oswaldo Scholtens;Masculino;pix;43
-2025-04-08 15:34:29.956954;Sapucaia do Sul;RS;Clovis;Mouse Gamer X11;3;200;Shannon Smith;Masculino;dinheiro;44
-2025-04-08 21:18:29.653403;Sapucaia do Sul;RS;Clovis;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Diana Heller;Masculino;pix;45
-2025-04-13 20:56:29.465990;Coronel Freitas;SC;Mayron;Fone De Ouvido KZ EDX Pro;4;70;Ruth Stoeckel;Feminino;cartão de débito;46
-2025-04-14 14:18:29.079398;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Patricia Tucker;Masculino;cartão de débito;47
-2025-04-15 17:27:29.099099;Belo Horizonte;MG;Enzo;Notebook Dell Inspiron;1;3000;Ivy Fernandez;Masculino;cartão de crédito;48
-2025-04-17 00:36:29.941095;São Paulo;SP;Bruno Henrique;Notebook Dell Inspiron;1;3000;Maricela Mejia;Masculino;pix;49
-2025-04-20 22:00:29.236877;Belo Horizonte;MG;Enzo;Fone De Ouvido KZ EDX Pro;4;70;Barbie Daniels;Masculino;cartão de débito;50
-2025-04-25 20:19:29.433918;Sapucaia do Sul;RS;Clovis;Notebook Dell Inspiron;1;3000;Dorothy Hutchins;Masculino;cartão de débito;51
-2025-04-29 23:17:29.798377;Sapucaia do Sul;RS;Adamastor;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Linda Harper;Feminino;pix;52
-2025-05-01 20:53:29.893289;Coronel Freitas;SC;Mayron;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Cynthia Morales;Feminino;boleto;53
-2025-05-14 15:28:29.909206;Coronel Freitas;SC;Mayron;Fone De Ouvido KZ EDX Pro;4;70;Catherine Kerr;Masculino;dinheiro;54
-2025-05-14 20:59:29.704718;Rio de Janeiro;RJ;Gaules;Fone De Ouvido KZ EDX Pro;4;70;Anna Nichols;Masculino;dinheiro;55
-2025-05-21 17:25:30.034287;Belo Horizonte;MG;Nathan;Notebook Dell Inspiron;1;3000;Stewart Sullivan;Masculino;dinheiro;56
-2025-05-22 20:40:30.016515;Sapucaia do Sul;RS;Adamastor;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Janice Wiemer;Feminino;dinheiro;57
-2025-05-23 17:56:29.382825;São Paulo;SP;Bruno Henrique;Fone De Ouvido KZ EDX Pro;4;70;Randall Engles;Masculino;pix;58
-2025-06-01 17:04:29.513969;Rio de Janeiro;RJ;Cellbit;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Donald Jackson;Feminino;boleto;59
-2025-06-06 23:32:29.909206;Rio de Janeiro;RJ;Gaules;Controle Sem Fio 8BitDo;5;430;Clifton Gram;Feminino;cartão de débito;60
-2025-06-07 21:03:29.513969;Belo Horizonte;MG;Enzo;Controle Sem Fio 8BitDo;5;430;James Woods;Feminino;cartão de débito;61
-2025-06-13 15:53:29.684850;Rio de Janeiro;RJ;Gaules;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Concepcion Garcia;Feminino;dinheiro;62
-2025-06-13 20:29:29.941095;Rio de Janeiro;RJ;Cellbit;Notebook Dell Inspiron;1;3000;James Douglas;Masculino;dinheiro;63
-2025-06-15 19:19:29.937346;Sapucaia do Sul;RS;Clovis;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Becky Ruiz;Feminino;dinheiro;64
-2025-06-30 15:09:30.014510;Rio de Janeiro;RJ;Gaules;Notebook Dell Inspiron;1;3000;Pamela Sanchez;Feminino;pix;65
-2025-07-01 19:52:30.010501;Sapucaia do Sul;RS;Adamastor;Controle Sem Fio 8BitDo;5;430;Clarence Montemayor;Masculino;cartão de crédito;66
-2025-07-11 21:41:30.008497;Rio de Janeiro;RJ;Cellbit;Fone De Ouvido KZ EDX Pro;4;70;Willis Ross;Feminino;cartão de crédito;67
-2025-08-01 15:21:29.684850;Sapucaia do Sul;RS;Clovis;Mouse Gamer X11;3;200;Kari Marcus;Masculino;cartão de débito;68
-2025-08-07 16:27:29.798377;Rio de Janeiro;RJ;Cellbit;Fone De Ouvido KZ EDX Pro;4;70;Phyllis Brown;Feminino;pix;69
-2025-08-09 16:45:29.653403;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Theresa Simpkins;Masculino;cartão de crédito;70
-2025-08-10 00:25:29.956954;São Paulo;SP;Juninho Pernambucano;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Rosemarie Sanford;Masculino;cartão de débito;71
-2025-08-12 00:28:29.909206;São Paulo;SP;Juninho Pernambucano;Notebook Dell Inspiron;1;3000;Samuel Sloan;Masculino;cartão de crédito;72
-2025-08-23 20:29:29.107144;São Paulo;SP;Bruno Henrique;Mouse Gamer X11;3;200;Kathryn Crazier;Feminino;pix;73
-2025-09-05 19:21:29.956954;Coronel Freitas;SC;Marcelo Caps;Fone De Ouvido KZ EDX Pro;4;70;Carmen Griffith;Masculino;pix;74
-2025-09-06 21:15:29.893289;Belo Horizonte;MG;Enzo;Mouse Gamer X11;3;200;Ronald Conlin;Masculino;pix;75
-2025-09-08 00:05:29.798377;Belo Horizonte;MG;Nathan;Fone De Ouvido KZ EDX Pro;4;70;Chris Rotella;Feminino;cartão de débito;76
-2025-09-09 21:18:29.513969;Sapucaia do Sul;RS;Adamastor;Notebook Dell Inspiron;1;3000;Jose Morris;Masculino;boleto;77
-2025-09-09 23:32:29.105635;Coronel Freitas;SC;Mayron;Fone De Ouvido KZ EDX Pro;4;70;Charles Smith;Feminino;boleto;78
-2025-09-13 23:09:29.956954;Coronel Freitas;SC;Mayron;Controle Sem Fio 8BitDo;5;430;Susan Morrell;Feminino;cartão de crédito;79
-2025-09-15 18:01:29.105635;São Paulo;SP;Bruno Henrique;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Sterling Parrish;Feminino;cartão de débito;80
-2025-09-17 20:30:29.798377;Rio de Janeiro;RJ;Gaules;Fone De Ouvido KZ EDX Pro;4;70;Lee Begin;Feminino;pix;81
-2025-09-26 18:28:29.667385;Coronel Freitas;SC;Marcelo Caps;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Gussie Pelland;Feminino;pix;82
-2025-09-27 00:30:29.513969;Rio de Janeiro;RJ;Cellbit;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Reda Bickers;Feminino;dinheiro;83
-2025-09-28 17:49:29.909206;Belo Horizonte;MG;Nathan;Mouse Gamer X11;3;200;Jeremy Snow;Masculino;dinheiro;84
-2025-09-29 22:50:29.242895;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Paul Barnes;Masculino;dinheiro;85
-2025-10-02 17:35:29.877468;Belo Horizonte;MG;Enzo;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Erin Kielbasa;Feminino;pix;86
-2025-10-02 18:15:29.232864;Coronel Freitas;SC;Marcelo Caps;Mouse Gamer X11;3;200;Joel Wallace;Masculino;cartão de crédito;87
-2025-10-02 19:44:29.513969;Coronel Freitas;SC;Mayron;Fone De Ouvido KZ EDX Pro;4;70;James Wyatt;Feminino;cartão de débito;88
-2025-10-11 21:26:29.513969;Belo Horizonte;MG;Nathan;Controle Sem Fio 8BitDo;5;430;Brent Perez;Feminino;pix;89
-2025-10-19 16:45:29.577117;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Carol Loguidice;Feminino;pix;90
-2025-10-31 23:48:29.412381;Rio de Janeiro;RJ;Gaules;Notebook Dell Inspiron;1;3000;Theresa Kahle;Feminino;cartão de débito;91
-2025-11-04 14:54:29.244640;São Paulo;SP;Bruno Henrique;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Linda Price;Feminino;pix;92
-2025-11-08 14:26:29.956954;São Paulo;SP;Bruno Henrique;Controle Sem Fio 8BitDo;5;430;Alice Waterman;Feminino;cartão de crédito;93
-2025-11-09 17:08:29.717606;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Robert Searby;Masculino;cartão de crédito;94
-2025-11-17 17:25:29.428160;Belo Horizonte;MG;Nathan;Mouse Gamer X11;3;200;Elena Copeland;Masculino;cartão de débito;95
-2025-11-26 16:53:29.956954;São Paulo;SP;Bruno Henrique;Fone De Ouvido KZ EDX Pro;4;70;Tim Jones;Masculino;pix;96
-2025-11-26 22:01:29.513969;Belo Horizonte;MG;Nathan;Fone De Ouvido KZ EDX Pro;4;70;Gerald Bowman;Masculino;pix;97
-2025-11-28 16:20:29.717606;São Paulo;SP;Juninho Pernambucano;Controle Sem Fio 8BitDo;5;430;Gerald Poole;Feminino;boleto;98
-2025-12-02 15:37:29.642243;Sapucaia do Sul;RS;Adamastor;Notebook Dell Inspiron;1;3000;Arthur Prichard;Masculino;pix;99
-2025-12-06 15:13:29.430164;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Gary Johnson;Masculino;cartão de débito;100
+2024-12-18 16:27:30.244610;Coronel Freitas;SC;Marcelo Caps;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;William Gilmore;Masculino;cartão de débito;1
+2024-12-22 15:27:30.265611;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Arthur Porter;Feminino;dinheiro;2
+2024-12-24 18:56:29.917591;São Paulo;SP;Juninho Pernambucano;Mouse Gamer X11;3;200;Frances Okeefe;Masculino;dinheiro;3
+2024-12-26 17:56:30.219608;Belo Horizonte;MG;Nathan;Mouse Gamer X11;3;200;William Mcmillan;Masculino;pix;4
+2025-01-03 13:23:30.265611;São Paulo;SP;Juninho Pernambucano;Controle Sem Fio 8BitDo;5;430;Pamela Butler;Feminino;cartão de débito;5
+2025-01-08 15:37:29.912591;Sapucaia do Sul;RS;Clovis;Notebook Dell Inspiron;1;3000;Jimmy Trammell;Feminino;cartão de crédito;6
+2025-01-09 20:01:30.261611;Rio de Janeiro;RJ;Cellbit;Mouse Gamer X11;3;200;Edward Phillips;Feminino;cartão de crédito;7
+2025-01-14 17:04:30.185606;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Delois Posey;Masculino;cartão de crédito;8
+2025-01-14 17:23:29.584572;São Paulo;SP;Bruno Henrique;Controle Sem Fio 8BitDo;5;430;Joel Lovelady;Feminino;cartão de débito;9
+2025-01-16 17:25:29.935592;São Paulo;SP;Juninho Pernambucano;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Lori Young;Feminino;dinheiro;10
+2025-01-22 10:54:29.513568;Sapucaia do Sul;RS;Adamastor;Notebook Dell Inspiron;1;3000;Ernest Williams;Feminino;dinheiro;11
+2025-01-29 09:46:30.109602;São Paulo;SP;Bruno Henrique;Notebook Dell Inspiron;1;3000;Felicia Mendoza;Masculino;dinheiro;12
+2025-02-06 17:03:29.916591;Sapucaia do Sul;RS;Clovis;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Linda Powell;Feminino;boleto;13
+2025-02-09 12:34:30.260611;Sapucaia do Sul;RS;Adamastor;Fone De Ouvido KZ EDX Pro;4;70;James Fletcher;Masculino;cartão de débito;14
+2025-02-18 17:42:29.581572;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Dorothy Albright;Masculino;pix;15
+2025-02-26 20:16:29.419562;Sapucaia do Sul;RS;Adamastor;Notebook Dell Inspiron;1;3000;Paul Goulet;Masculino;pix;16
+2025-03-02 14:02:30.260611;Sapucaia do Sul;RS;Clovis;Fone De Ouvido KZ EDX Pro;4;70;Floyd Hall;Feminino;cartão de débito;17
+2025-03-05 13:35:30.033598;Rio de Janeiro;RJ;Cellbit;Fone De Ouvido KZ EDX Pro;4;70;Viviana Cordero;Masculino;cartão de crédito;18
+2025-03-11 13:19:30.259610;São Paulo;SP;Juninho Pernambucano;Controle Sem Fio 8BitDo;5;430;Jennie Smith;Masculino;cartão de débito;19
+2025-03-14 11:04:30.071600;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Max Andrada;Feminino;cartão de débito;20
+2025-03-18 17:44:30.070600;Rio de Janeiro;RJ;Gaules;Fone De Ouvido KZ EDX Pro;4;70;Henry Kinney;Masculino;dinheiro;21
+2025-04-03 09:32:29.820585;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Shannon Villegas;Feminino;boleto;22
+2025-04-04 11:47:29.802584;Sapucaia do Sul;RS;Clovis;Controle Sem Fio 8BitDo;5;430;Teresa Hines;Feminino;dinheiro;23
+2025-04-07 11:21:29.927592;Coronel Freitas;SC;Mayron;Mouse Gamer X11;3;200;Susan Green;Feminino;pix;24
+2025-04-12 19:29:30.259610;Sapucaia do Sul;RS;Adamastor;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Henry Harris;Feminino;dinheiro;25
+2025-04-17 18:32:29.919591;Rio de Janeiro;RJ;Gaules;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Kim Ellis;Feminino;cartão de débito;26
+2025-04-17 19:13:30.188606;Belo Horizonte;MG;Enzo;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Libbie Miller;Masculino;boleto;27
+2025-04-24 18:42:30.192607;São Paulo;SP;Bruno Henrique;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Eric Fazzino;Masculino;dinheiro;28
+2025-04-27 13:22:30.011596;Belo Horizonte;MG;Enzo;Notebook Dell Inspiron;1;3000;Wayne Sheehan;Feminino;dinheiro;29
+2025-04-28 19:15:30.293612;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Helen Martinez;Masculino;cartão de crédito;30
+2025-04-29 19:48:29.703579;Sapucaia do Sul;RS;Adamastor;Notebook Dell Inspiron;1;3000;Andrew Kelly;Masculino;cartão de crédito;31
+2025-05-04 10:23:29.803584;Sapucaia do Sul;RS;Adamastor;Fone De Ouvido KZ EDX Pro;4;70;Marissa Morris;Masculino;cartão de débito;32
+2025-05-12 11:25:29.945593;Belo Horizonte;MG;Enzo;Mouse Gamer X11;3;200;Thomas Steir;Masculino;cartão de débito;33
+2025-05-23 11:35:29.938592;Rio de Janeiro;RJ;Gaules;Mouse Gamer X11;3;200;Christopher Miller;Feminino;cartão de débito;34
+2025-05-25 19:29:30.261611;Sapucaia do Sul;RS;Adamastor;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Richard Cash;Masculino;boleto;35
+2025-05-27 11:12:30.036598;São Paulo;SP;Bruno Henrique;Controle Sem Fio 8BitDo;5;430;Benjamin Testani;Feminino;dinheiro;36
+2025-05-31 13:31:29.909590;São Paulo;SP;Bruno Henrique;Mouse Gamer X11;3;200;Sarah Hammond;Feminino;cartão de crédito;37
+2025-06-13 16:53:29.517568;Rio de Janeiro;RJ;Gaules;Fone De Ouvido KZ EDX Pro;4;70;Judith Ross;Feminino;cartão de crédito;38
+2025-06-15 11:16:29.776583;Coronel Freitas;SC;Marcelo Caps;Fone De Ouvido KZ EDX Pro;4;70;James Burgener;Feminino;dinheiro;39
+2025-06-25 09:49:30.262611;São Paulo;SP;Bruno Henrique;Mouse Gamer X11;3;200;Bradley Stockton;Masculino;cartão de débito;40
+2025-06-25 14:54:30.243610;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;Anna Baker;Feminino;boleto;41
+2025-07-01 12:27:30.010596;São Paulo;SP;Bruno Henrique;Controle Sem Fio 8BitDo;5;430;Jody Anderson;Feminino;pix;42
+2025-07-03 17:19:30.293612;Rio de Janeiro;RJ;Cellbit;Mouse Gamer X11;3;200;Ryan Martin;Feminino;boleto;43
+2025-07-04 14:35:30.220608;São Paulo;SP;Bruno Henrique;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Berneice Dockery;Feminino;boleto;44
+2025-07-05 17:02:29.936592;Coronel Freitas;SC;Marcelo Caps;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Joseph Dean;Masculino;boleto;45
+2025-07-06 11:00:30.301613;São Paulo;SP;Bruno Henrique;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Frances Snyder;Masculino;boleto;46
+2025-07-06 11:15:29.804584;Belo Horizonte;MG;Nathan;Mouse Gamer X11;3;200;George Bowen;Masculino;cartão de débito;47
+2025-07-14 13:45:30.094601;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;John Lopez;Feminino;boleto;48
+2025-07-14 17:21:29.506567;Sapucaia do Sul;RS;Clovis;Mouse Gamer X11;3;200;Erin Tsosie;Feminino;cartão de débito;49
+2025-07-15 17:21:29.927592;Coronel Freitas;SC;Marcelo Caps;Mouse Gamer X11;3;200;Randi Dent;Feminino;pix;50
+2025-07-20 16:52:29.910591;Rio de Janeiro;RJ;Cellbit;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Shannan Hampton;Masculino;cartão de crédito;51
+2025-08-02 17:50:29.504567;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Leigh Bunch;Masculino;cartão de crédito;52
+2025-08-08 14:40:29.514568;Coronel Freitas;SC;Marcelo Caps;Fone De Ouvido KZ EDX Pro;4;70;Gerardo Conner;Feminino;boleto;53
+2025-08-12 15:06:29.704579;Belo Horizonte;MG;Nathan;Notebook Dell Inspiron;1;3000;Noelia Kassler;Masculino;cartão de débito;54
+2025-08-13 16:35:30.111602;São Paulo;SP;Bruno Henrique;Mouse Gamer X11;3;200;Sylvia Gallagher;Feminino;cartão de crédito;55
+2025-08-24 14:56:29.415562;Rio de Janeiro;RJ;Cellbit;Mouse Gamer X11;3;200;Jane Jacobs;Feminino;boleto;56
+2025-08-28 19:45:30.242610;São Paulo;SP;Bruno Henrique;Controle Sem Fio 8BitDo;5;430;Cynthia Torres;Feminino;boleto;57
+2025-08-29 12:59:29.935592;São Paulo;SP;Bruno Henrique;Fone De Ouvido KZ EDX Pro;4;70;Eldon Sullivan;Feminino;boleto;58
+2025-08-29 19:23:29.938592;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;John Mullins;Masculino;cartão de débito;59
+2025-08-30 14:23:29.423563;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;Lynn Aquino;Feminino;cartão de débito;60
+2025-08-30 19:41:29.515568;São Paulo;SP;Juninho Pernambucano;Mouse Gamer X11;3;200;Hugh Roth;Masculino;pix;61
+2025-09-01 17:29:29.939592;Rio de Janeiro;RJ;Gaules;Controle Sem Fio 8BitDo;5;430;Thelma Adorno;Feminino;cartão de débito;62
+2025-09-01 18:49:29.939592;São Paulo;SP;Bruno Henrique;Fone De Ouvido KZ EDX Pro;4;70;David Ross;Masculino;dinheiro;63
+2025-09-02 11:18:29.647575;Belo Horizonte;MG;Nathan;Controle Sem Fio 8BitDo;5;430;Gloria Maraldo;Feminino;boleto;64
+2025-09-03 09:37:29.930592;São Paulo;SP;Juninho Pernambucano;Notebook Dell Inspiron;1;3000;Robert Pierce;Feminino;dinheiro;65
+2025-09-03 17:22:29.580572;Rio de Janeiro;RJ;Cellbit;Fone De Ouvido KZ EDX Pro;4;70;Maria Romero;Feminino;boleto;66
+2025-09-04 11:58:29.892590;Belo Horizonte;MG;Nathan;Mouse Gamer X11;3;200;Cynthia Patten;Feminino;dinheiro;67
+2025-09-05 14:46:29.427563;Sapucaia do Sul;RS;Clovis;Controle Sem Fio 8BitDo;5;430;Lillie Scrudato;Masculino;cartão de débito;68
+2025-09-14 12:03:29.895590;São Paulo;SP;Juninho Pernambucano;Mouse Gamer X11;3;200;Amanda Melgoza;Feminino;dinheiro;69
+2025-09-15 10:40:29.516568;Rio de Janeiro;RJ;Gaules;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Gil Davis;Feminino;pix;70
+2025-09-25 13:43:29.938592;São Paulo;SP;Bruno Henrique;Mouse Gamer X11;3;200;John Allen;Masculino;dinheiro;71
+2025-09-27 17:54:29.822585;São Paulo;SP;Juninho Pernambucano;Mouse Gamer X11;3;200;Theresa Alconcel;Masculino;boleto;72
+2025-09-28 16:34:29.522568;Belo Horizonte;MG;Enzo;Fone De Ouvido KZ EDX Pro;4;70;Michelle Age;Feminino;cartão de crédito;73
+2025-09-29 15:42:30.266611;Rio de Janeiro;RJ;Cellbit;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Stephanie Klocke;Feminino;boleto;74
+2025-10-01 15:35:30.226609;Sapucaia do Sul;RS;Clovis;Notebook Dell Inspiron;1;3000;Roseanne Depaul;Feminino;pix;75
+2025-10-02 16:06:30.009596;São Paulo;SP;Juninho Pernambucano;Notebook Dell Inspiron;1;3000;Candice Thompson;Masculino;boleto;76
+2025-10-05 17:53:29.593572;Belo Horizonte;MG;Nathan;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Maria Faiella;Masculino;pix;77
+2025-10-06 16:46:29.517568;Belo Horizonte;MG;Enzo;Controle Sem Fio 8BitDo;5;430;Kristie Reddick;Masculino;pix;78
+2025-10-06 20:06:29.804584;Sapucaia do Sul;RS;Adamastor;Notebook Dell Inspiron;1;3000;Denise Brewer;Masculino;cartão de crédito;79
+2025-10-08 15:28:30.063599;São Paulo;SP;Bruno Henrique;Controle Sem Fio 8BitDo;5;430;Glory Kirchner;Masculino;dinheiro;80
+2025-10-10 10:33:29.583572;São Paulo;SP;Juninho Pernambucano;Notebook Dell Inspiron;1;3000;Bryon Weiss;Masculino;cartão de crédito;81
+2025-10-10 17:40:30.112602;Rio de Janeiro;RJ;Gaules;Notebook Dell Inspiron;1;3000;Kathy Seiver;Masculino;boleto;82
+2025-10-11 09:51:30.294612;Rio de Janeiro;RJ;Cellbit;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Deshawn Bierman;Feminino;boleto;83
+2025-10-12 19:37:30.031597;Coronel Freitas;SC;Marcelo Caps;Notebook Dell Inspiron;1;3000;Suzanne Holder;Masculino;cartão de débito;84
+2025-10-25 19:21:30.095601;Rio de Janeiro;RJ;Cellbit;Notebook Dell Inspiron;1;3000;Ruth Bilodeau;Feminino;dinheiro;85
+2025-11-05 13:00:30.244610;Coronel Freitas;SC;Mayron;Controle Sem Fio 8BitDo;5;430;George Wesolowski;Masculino;pix;86
+2025-11-07 15:27:29.916591;Belo Horizonte;MG;Nathan;Controle Sem Fio 8BitDo;5;430;Danny Johnson;Masculino;cartão de crédito;87
+2025-11-08 11:33:30.258610;Sapucaia do Sul;RS;Adamastor;Nvidia GeForce RTX 5060 Ti 16 GB;2;4000;Christa Williams;Masculino;dinheiro;88
+2025-11-10 15:46:30.293612;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Daniel Hernandez;Masculino;dinheiro;89
+2025-11-15 16:44:29.920591;Belo Horizonte;MG;Enzo;Controle Sem Fio 8BitDo;5;430;Josephine Rolon;Masculino;dinheiro;90
+2025-11-17 18:19:29.931592;Rio de Janeiro;RJ;Cellbit;Fone De Ouvido KZ EDX Pro;4;70;Dale Osburn;Masculino;boleto;91
+2025-11-19 17:13:29.805585;Sapucaia do Sul;RS;Adamastor;Mouse Gamer X11;3;200;Frances Bergan;Masculino;dinheiro;92
+2025-11-23 17:07:29.916591;São Paulo;SP;Juninho Pernambucano;Fone De Ouvido KZ EDX Pro;4;70;Gerald Johnson;Masculino;cartão de crédito;93
+2025-11-23 18:32:30.012596;Coronel Freitas;SC;Mayron;Notebook Dell Inspiron;1;3000;Fred Nau;Feminino;dinheiro;94
+2025-11-24 10:12:30.259610;São Paulo;SP;Bruno Henrique;Notebook Dell Inspiron;1;3000;Mary Oliver;Masculino;dinheiro;95
+2025-11-24 14:41:29.512568;Rio de Janeiro;RJ;Gaules;Mouse Gamer X11;3;200;Curtis Moran;Masculino;cartão de débito;96
+2025-11-29 15:21:29.416562;Rio de Janeiro;RJ;Cellbit;Notebook Dell Inspiron;1;3000;Bradford Boyce;Masculino;boleto;97
+2025-12-01 17:23:30.242610;Sapucaia do Sul;RS;Adamastor;Controle Sem Fio 8BitDo;5;430;William Bridges;Masculino;cartão de débito;98
+2025-12-05 14:35:29.937592;Belo Horizonte;MG;Nathan;Mouse Gamer X11;3;200;Lily Robinson;Masculino;cartão de crédito;99
+2025-12-05 19:14:29.503567;Rio de Janeiro;RJ;Cellbit;Mouse Gamer X11;3;200;Jose Poole;Masculino;boleto;100
